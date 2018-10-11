@@ -1,0 +1,54 @@
+Fondamenti di Ingegneria del Software a.a. 2018-19
+Esercizio sui Requisiti
+Data la seguente descrizione informale delle funzionalità di una applicazione web di
+videonoleggi:
+Un’azienda specializzata in videonoleggi vuole entrare nel mercato online, offrendo i suoi
+servizi attraverso un’applicazione web chiamata YourMovie.
+L’applicazione prevede funzionalità di base, che possono essere utilizzate anche da un utente
+non registrato/autenticato, e funzionalità avanzate, che richiedono registrazione e
+autenticazione.
+Le funzionalità di base sono le seguenti:
+? Cercare un film presente nel sistema (per titolo, anno, genere, o nome del regista);
+? Visualizzare la scheda tecnica di un film (locandina, trailer, trama, cast, prezzo di
+vendita, etc);
+? Visualizzare, a partire dalla scheda tecnica di un film, la lista di recensioni pubblicate
+dagli altri utenti per quel film;
+Per utilizzare le funzionalità avanzate, un utente non registrato/autenticato deve prima
+registrarsi e/o autenticarsi nel sistema (con username e password). Sono previste due modalità
+di registrazione: Basic o Premium.
+Un utente Basic può utilizzare le funzionalità di base, come un utente non
+registrato/autenticato, e acquistare film in formato fisico o digitale, inserire recensioni di film,
+e visualizzare lo storico degli acquisti effettuati. Un utente Premium, oltre alle funzionalità di
+un utente Basic, può visualizzare in streaming direttamente nell’applicazione i film acquistati
+o porzioni limitate (inferiori a 15 minuti) di film non ancora acquistati. Infine, è previsto il
+ruolo di Amministratore per gestire la lista di film in vendita (inserimento, rimozione,
+modifica) e visualizzare lo storico complessivo degli acquisti effettuati dagli utenti.
+Nota: Una sessione di acquisto, per un utente autenticato Basic o Premium, consiste in:
+visualizzare la scheda tecnica di un film, selezionare l’opzione di acquisto specificando se si
+intende acquistare il prodotto come copia fisica o digitale, inserire i dati di pagamento richiesti
+(nome, cognome, indirizzo di spedizione, email, telefono, tipo e numero di carta di credito) e,
+una volta confermato l’acquisto e in assenza di eventuali problemi, quali dati non validi o
+mancata disponibilità monetaria sulla carta, attendere la ricezione dell’email di conferma,
+contenente anche l’eventuale link dal quale scaricare il film, se acquistato in copia digitale.
+Passi da Svolgere:
+1) Per mezzo della funzionalità “Textual Analysis” disponibile in Visual Paradigm (VP)
+determinare quali sono gli Use Cases e gli Attori del sistema.
+Download VP: https://www.visual-paradigm.com/download/community.jsp
+Tutorial: http://www.visual-paradigm.com/tutorials/textualanalysis.jsp
+2) Disegnare lo Use Case Diagram in Visual Paradigm utilizzando gli elementi determinati
+al passo precedente, modificando quando opportuno.
+Tutorial: https://www.visual-paradigm.com/support/documents/vpuserguide/94/2575/6362_drawinguseca.html
+3) Descrivere almeno 2 Use Case in Word adottando il template visto a lezione
+4) Creare almeno 2 Screen Mockups utilizzando Pencil e inserire le relative immagini nei
+passi opportuni degli Use Case descritti nel documento Word.
+Download Pencil: https://pencil.evolus.vn/Downloads.html
+Video Tutorial (2013):
+https://www.youtube.com/watch?v=kE6vK7XA8YU (parte 1)
+https://www.youtube.com/watch?v=Ui2Go471ldU (parte 2)
+Il documento Word dovrà contenere in prima pagina l’immagine dello Use Case Diagram
+esportata da Visual Paradigm, poi le descrizioni degli Use Case con associate le immagini
+degli Screen Mockup.
+Consegnare uno ZIP nominato: Labo1_COGNOME1[_COGNOMEn].zip contente:
+? Il progetto Visual Paradigm per i passi 1 e 2
+? Il documento Word per il passo 3
+? Il file Pencil per il passo 4 
